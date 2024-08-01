@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0AFF9F74-8D53-49CD-8CEA-B2C7C5C161CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryLeak.Api", "src\MemoryLeak.Api\MemoryLeak.Api.csproj", "{34B950CA-0459-4AA5-A805-1646AFCE5E89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighCPU.Api", "src\HighCPU.Api\HighCPU.Api.csproj", "{5D09E763-FC2F-48F7-9F6E-D94CB67133E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34B950CA-0459-4AA5-A805-1646AFCE5E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B950CA-0459-4AA5-A805-1646AFCE5E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B950CA-0459-4AA5-A805-1646AFCE5E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B950CA-0459-4AA5-A805-1646AFCE5E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D09E763-FC2F-48F7-9F6E-D94CB67133E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D09E763-FC2F-48F7-9F6E-D94CB67133E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D09E763-FC2F-48F7-9F6E-D94CB67133E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D09E763-FC2F-48F7-9F6E-D94CB67133E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34B950CA-0459-4AA5-A805-1646AFCE5E89} = {0AFF9F74-8D53-49CD-8CEA-B2C7C5C161CC}
+		{5D09E763-FC2F-48F7-9F6E-D94CB67133E8} = {0AFF9F74-8D53-49CD-8CEA-B2C7C5C161CC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93139528-5367-421E-B1BB-A6CF4D699118}
+	EndGlobalSection
+EndGlobal
